@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Roboto";
+}
+
+html{
+    background-color: rgb(240, 227, 239);
+}
+
+.bloque, .bloquepreg{
+    display: block;
+    background-color: white;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    min-height: 150px;
+    border-radius: 6px;
+    border-top: 12px solid rgb(149, 103, 187);
+    border-left: 1px solid rgb(184, 182, 182);
+    border-right: 1px solid rgb(184, 182, 182);
+    border-bottom: 1px solid rgb(184, 182, 182);
+}
+
+.botones{
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.izquierda{
+    display: flex;
+    justify-content: left;
+    width: 50%;  
+}
+
+.derecha{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+}
+
+button{
+    background-color: rgb(149, 103, 187);
+    color: white;
+    outline: 0;
+    border: 0;
+    width: 100px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(182, 125, 230);
+}
+
+#reset{
+    background-color: transparent;
+    color: rgb(149, 103, 187);
+    width: 150px;
+}
+
+#reset:hover{
+    background-color: rgb(236, 222, 235);
+}
+
+.bloque h1{
+    font-size: 40px;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    color: rgb(32, 33, 36);
+}
+
+.bloque p{
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    margin-top: 0.25em;
+    font-size: 17px;
+    margin-bottom: 1.2em;
+    color: rgb(32, 33, 36);
+    font-weight: 400;
+}
+
+.bloquepreg{
+    border-top: 1px solid rgb(184, 182, 182);;
+}
+
+.bloquepreg p{
+    margin-left: 1.1em;
+    margin-right: 1.2em;
+    margin-top: 1.25em;
+    font-size: 18px;
+    color: rgb(32, 33, 36);
+    font-weight: 400;
+}
+
+input, select, textarea{
+    box-sizing: border-box;
+    margin-left: 1.5em;
+    margin-top: 2em;
+    border: 0;
+    border-bottom: 2px solid rgb(182, 177, 177);
+    min-width: 400px;
+    color: rgb(32, 33, 36);
+    transition: all 200ms;
+}
+
+
+select{
+    margin-left: 1.45em;
+    border-left: 1px solid rgb(184, 182, 182);
+    border-right: 1px solid rgb(184, 182, 182);
+    border-bottom: 1px solid rgb(184, 182, 182);
+    border-top: 1px solid rgb(184, 182, 182);
+    border-radius: 6px;
+    color: rgb(32, 33, 36);
+}
+
+textarea{
+    width: 500px;
+    height: 50px;
+    resize: none;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(100, 98, 98);
+}
+
+audio{
+    display: none;
+}

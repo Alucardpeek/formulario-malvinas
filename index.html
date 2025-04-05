@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de las Malvinas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="bloque">
+        <h1>Formulario de las Malvinas</h1>
+        <p>Este formulario busca recopilar mensajes, homenajes y reflexiones en honor a los veteranos y caídos en la Guerra de Malvinas de parte de la institución. Tu participación (seas estudiante, docente, personal o tutor) es un gesto de reconocimiento y memoria para quienes defendieron nuestra soberanía.</p>
+    </div>
+    <form>
+        <div class="bloquepreg">
+            <p>¿Cuál es tu nombre?</p>
+            <input type="text" placeholder="Tu nombre" required>
+        </div>
+        <div class="bloquepreg">
+            <p>¿Cuál es tu mail?</p>
+            <input type="email" placeholder="Tu mail (ej: test@example.com)" required>
+        </div>
+        <div class="bloquepreg">
+            <p>¿Cuál es tu número telefónico?</p>
+            <input type="tel" placeholder="Tu número telefónico (formato: 11 1234 5678)" required>
+        </div>
+        <div class="bloquepreg">
+            <p>¿Asignatura?</p>
+            <select>
+                <option>Estudiante</option>
+                <option>Docente</option>
+                <option>Personal</option>
+                <option>Tutor</option>
+            </select>
+        </div>
+        <div class="bloquepreg">
+            <p>¿En que fecha se llevó a cabo la Guerra de las Malvinas?</p>
+            <input type="date" required>
+        </div>
+        <div class="bloquepreg">
+            <p>¿Por qué se llevó a cabo la Guerra de las Malvinas?</p>
+            <textarea placeholder="Escribe tu motivo..." minlength="100" required></textarea>
+        </div>
+        <div class="bloquepreg">
+            <p>¿Cuándo terminó el conflicto?</p>
+            <input type="date" required>
+        </div>
+        <div class="bloquepreg">
+            <p>Dejá un mensaje en honor a los veteranos y caídos</p>
+            <textarea placeholder="Escribe tu mensaje..." minlength="100" required></textarea>
+        </div>
+        <div class="bloquepreg">
+            <p>¿Conocés a algún veterano o familiar de un caído?</p>
+            <select>
+                <option>No</option>
+                <option>Sí</option>
+            </select>
+        </div>
+        <div class="bloquepreg">
+            <p>En caso de que tu respuesta sea sí, ¿Querés compartir su historia o recuerdo?</p>
+            <textarea placeholder="Escribe su historia..."></textarea>
+        </div>
+        <div class="bloquepreg">
+            <p>Escribí una breve reseña de este formulario</p>
+            <textarea placeholder="Escribe tu opinión..." minlength="100" required></textarea>
+        </div>
+        <div class="botones">
+            <div class="izquierda">
+                <button type="submit">Enviar</button>
+            </div>
+            <div class="derecha">
+                <button type="reset" id="reset">Borrar formulario</button>
+            </div>
+        </div>
+    </form>
+    <audio autoplay="true" src="marcha.mp3">
+</body>
+</html>
